@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form id="weatherForm">
+            <label for="city1">Enter the first city name:</label>
+            <input type="text" id="city1" name="city1" required>
+            <label for="city2">Enter the second city name:</label>
+            <input type="text" id="city2" name="city2" required>
+            <button type="submit">Get Weather Data</button>
+        </form>
+        <div id="weatherResults">
+            <!-- Weather data will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+lsof -i :8080(portNumber)
